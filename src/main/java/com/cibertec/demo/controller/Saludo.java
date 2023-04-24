@@ -17,6 +17,4 @@ public class Saludo {
 	public String holaMundo() {
 		return "saludo";
 	}
-	
-	
 }

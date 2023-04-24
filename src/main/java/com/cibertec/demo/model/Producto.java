@@ -21,12 +21,12 @@ public class Producto {
 	@Column(name="pre_prod")
 	private double precio;
 	
-	private int idCategoria;
+	private int idcategoria=1;
 	
 	@Column(name="est_prod")
 	private int estado;
 	
-	private int idProveedor;
+	private int idproveedor=1;
 
 	public String getCodigo() {
 		return codigo;
@@ -60,12 +60,12 @@ public class Producto {
 		this.precio = precio;
 	}
 
-	public int getIdCategoria() {
-		return idCategoria=1;
+	public int getIdcategoria() {
+		return idcategoria;
 	}
 
-	public void setIdCategoria(int idCategoria) {
-		this.idCategoria = idCategoria;
+	public void setIdcategoria(int idcategoria) {
+		this.idcategoria = idcategoria;
 	}
 
 	public int getEstado() {
@@ -76,11 +76,11 @@ public class Producto {
 		this.estado = estado;
 	}
 
-	public int getIdProveedor() {
-		return idProveedor=1;
+	public int getIdproveedor() {
+		return idproveedor;
 	}
 
-	public void setIdProveedor(int idProveedor) {
-		this.idProveedor = idProveedor;
-	}
+	public void setIdproveedor(int idproveedor) {
+		this.idproveedor = idproveedor;
+	}	
 }
